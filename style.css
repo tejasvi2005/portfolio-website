@@ -5,8 +5,6 @@
   --text-light: #fff;
   --accent: #e0f7fa;
 }
-
-/* ===== Reset & Base ===== */
 * {
   margin: 0;
   padding: 0;
@@ -21,8 +19,6 @@ body {
   color: var(--text-dark);
   line-height: 1.6;
 }
-
-/* ===== Navbar ===== */
 header {
   background-color: var(--primary-color);
   color: var(--text-light);
@@ -46,8 +42,6 @@ nav {
 .nav-menu a:hover {
   text-decoration: underline;
 }
-
-/* ===== Hero Section ===== */
 .hero {
   background-color: var(--accent);
   text-align: center;
@@ -65,8 +59,6 @@ nav {
   font-size: 1.2rem;
   color: #444;
 }
-
-/* ===== Sections ===== */
 section {
   padding: 2rem 1.5rem;
 }
@@ -74,8 +66,6 @@ h2 {
   color: var(--primary-color);
   margin-bottom: 1rem;
 }
-
-/* ===== Skills ===== */
 ul.skills {
   list-style: none;
   display: flex;
@@ -88,8 +78,6 @@ ul.skills {
   border-radius: 5px;
   font-weight: 500;
 }
-
-/* ===== Projects ===== */
 .project {
   background-color: #fff;
   border: 1px solid #ddd;
@@ -108,8 +96,6 @@ ul.skills {
 .project a:hover {
   text-decoration: underline;
 }
-
-/* ===== Button ===== */
 .btn {
   display: inline-block;
   background: var(--primary-color);
@@ -123,8 +109,6 @@ ul.skills {
 .btn:hover {
   background: #004d40;
 }
-
-/* ===== Footer ===== */
 footer {
   background-color: #eee;
   text-align: center;
@@ -134,32 +118,25 @@ footer a {
   color: var(--primary-color);
   text-decoration: none;
 }
-
-/* ===== Responsive ===== */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
     align-items: flex-start;
   }
-
   .nav-menu {
     flex-direction: column;
     gap: 10px;
     padding-top: 10px;
   }
-
   .hero h1 {
     font-size: 1.5rem;
   }
-
   section {
     padding: 1rem;
   }
-
   .project {
     padding: 1rem;
   }
-
   .skills {
     flex-direction: column;
   }
